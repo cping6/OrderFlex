@@ -1,0 +1,15 @@
+{
+  "name": "acme/order-flex",
+  "description": "Flexible order record package for PHP apps",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "OrderFlex\\": "src/"
+    }
+  }
+}
